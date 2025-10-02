@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sibolga Tapteng Agency</title>
+<!-- Link Google Fonts dibagi biar gak terlalu berat -->
+<!-- Google Fonts Batch 1 -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&family=Lato:wght@400;700&family=Oswald:wght@400;700&family=Raleway:wght@400;700&family=Ubuntu:wght@400;700&family=Nunito:wght@400;700&family=Merriweather:wght@400;700&family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&family=Playfair+Display:wght@400;700&family=Fira+Sans:wght@400;700&family=Work+Sans:wght@400;700&family=Inconsolata:wght@400;700&family=Rubik:wght@400;700&family=Titillium+Web:wght@400;700&family=Arimo:wght@400;700&family=Cabin:wght@400;700&family=Quicksand:wght@400;700&family=Muli:wght@400;700&family=Karla:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Source+Serif+Pro:wght@400;700&family=Source+Code+Pro:wght@400;700&family=Josefin+Sans:wght@400;700&family=Dosis:wght@400;700&family=Exo+2:wght@400;700&family=Baloo+2:wght@400;700&family=Domine:wght@400;700&family=Crimson+Text:wght@400;700&family=Asap:wght@400;700&family=Barlow:wght@400;700&family=Hind:wght@400;700&family=Overpass:wght@400;700&family=Signika:wght@400;700&family=Yanone+Kaffeesatz:wght@400;700&family=Libre+Baskerville:wght@400;700&family=Varela+Round:wght@400;700&family=Teko:wght@400;700&family=Acme:wght@400;700&family=Righteous:wght@400;700&family=Pacifico&family=Abril+Fatface&family=Amatic+SC:wght@400;700&family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+<!-- Google Fonts Batch 2 -->
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Archivo:wght@400;700&family=Asar&family=Bebas+Neue&family=Cairo:wght@400;700&family=Cantarell:wght@400;700&family=Cinzel:wght@400;700&family=Comfortaa:wght@400;700&family=Cookie&family=EB+Garamond:wght@400;700&family=Frank+Ruhl+Libre:wght@400;700&family=Fredoka+One&family=Gudea:wght@400;700&family=Heebo:wght@400;700&family=Imprima&family=Istok+Web:wght@400;700&family=Jura:wght@400;700&family=Kanit:wght@400;700&family=Kreon:wght@400;700&family=Lexend:wght@400;700&family=Libre+Franklin:wght@400;700&family=Lobster&family=Manuale:wght@400;700&family=Marcellus&family=Martel:wght@400;700&family=Mate&family=Molengo&family=Mulish:wght@400;700&family=Nanum+Gothic:wght@400;700&family=Noticia+Text:wght@400;700&family=Old+Standard+TT:wght@400;700&family=Orbitron:wght@400;700&family=Patua+One&family=Philosopher:wght@400;700&family=Podkova:wght@400;700&family=Pontano+Sans&family=Prata&family=Questrial&family=Rajdhani:wght@400;700&family=Reem+Kufi:wght@400;700&family=Rokkitt:wght@400;700&family=Rozha+One&family=Saira:wght@400;700&family=Saira+Condensed:wght@400;700&family=Scada:wght@400;700&family=Slabo+27px&family=Spectral:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Google Fonts Batch 3 -->
+<link href="https://fonts.googleapis.com/css2?family=Spinnaker&family=Staatliches&family=Taviraj:wght@400;700&family=Trirong:wght@400;700&family=Ultra&family=Unna:wght@400;700&family=Vidaloka&family=Yantramanav:wght@400;700&family=Zilla+Slab:wght@400;700&family=ABeeZee&family=Actor&family=Adamina&family=Aldrich&family=Andika&family=Antic&family=Antic+Slab&family=Averia+Serif+Libre:wght@400;700&family=Basic&family=BenchNine:wght@400;700&family=Bubblegum+Sans&family=Candal&family=Cardo:wght@400;700&family=Carter+One&family=Changa:wght@400;700&family=Chivo:wght@400;700&family=Coda:wght@400;700&family=Convergence&family=Crete+Round:wght@400;700&family=Cuprum:wght@400;700&family=Economica:wght@400;700&family=Electrolize&family=Encode+Sans:wght@400;700&family=Expletus+Sans:wght@400;700&family=Fjalla+One&family=Glegoo:wght@400;700&family=Gothic+A1:wght@400;700&family=Grand+Hotel&family=Gruppo&family=Handlee&family=Istok+Web:wght@400;700&family=Jockey+One&family=Khand:wght@400;700&family=Knewave&family=Ledger&display=swap" rel="stylesheet">
+
+<!-- Google Fonts Batch 4 -->
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Magra:wght@400;700&family=Metrophobic&family=Michroma&family=Monoton&family=Neuton:wght@400;700&family=News+Cycle:wght@400;700&family=Nixie+One&family=Overlock:wght@400;700&family=Passion+One:wght@400;700&family=Paytone+One&family=Play:wght@400;700&family=Quattrocento:wght@400;700&family=Quattrocento+Sans:wght@400;700&family=Ropa+Sans:wght@400;700&family=Rum+Raisin&family=Sansita:wght@400;700&family=Share:wght@400;700&family=Shrikhand&family=Sintony:wght@400;700&family=Six+Caps&family=Sorts+Mill+Goudy&family=Spicy+Rice&family=Squada+One&family=Stardos+Stencil:wght@400;700&family=Syncopate:wght@400;700&family=Tinos:wght@400;700&family=Trochut&family=Unica+One&family=Vast+Shadow&family=Yeseva+One&display=swap" rel="stylesheet">
+
+
+<style>
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #000;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 644px;
+  aspect-ratio: 1/1;
+  background: #111;
+}
+.container img.bg { width: 100%; height: 100%; object-fit: cover; display: block; }
+#photo-wrapper {
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 45%; height: 45%;
+  transform: translate(-50%,-50%);
+  display: none;
+  z-index:2;
+}
+#user-photo { width: 100%; height:100%; object-fit: cover; cursor: move; border: 2px dashed rgba(255,255,255,0.4); touch-action: none; }
+.resize-handle {
+  position: absolute;
+  width:14px; height:14px;
+  background: gold;
+  border:2px solid black;
+  border-radius:50%;
+  z-index:5;
+  touch-action:none;
+}
+.resize-handle.br { bottom:-8px; right:-8px; cursor: se-resize;}
+.resize-handle.bl { bottom:-8px; left:-8px; cursor: sw-resize;}
+.resize-handle.tr { top:-8px; right:-8px; cursor: ne-resize;}
+.resize-handle.tl { top:-8px; left:-8px; cursor: nw-resize;}
+.resize-handle.ml { top:50%; left:-8px; transform:translateY(-50%); cursor:w-resize;}
+.resize-handle.mr { top:50%; right:-8px; transform:translateY(-50%); cursor:e-resize;}
+.resize-handle.mt { top:-8px; left:50%; transform:translateX(-50%); cursor:n-resize;}
+.resize-handle.mb { bottom:-8px; left:50%; transform:translateX(-50%); cursor:s-resize;}
+#overlay { position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; pointer-events:none; z-index:3; }
+#papan-nama {
+  position:absolute; bottom:16%; left:50%; transform:translateX(-50%);
+  color:#fff; font-size:30px; font-weight:900; text-align:center;
+  width:80%; font-family:'Montserrat',sans-serif;
+  text-shadow: -2px -2px 4px rgba(0,0,0,0.8),
+                2px -2px 4px rgba(0,0,0,0.8),
+               -2px 2px 4px rgba(0,0,0,0.8),
+                2px 2px 4px rgba(0,0,0,0.8);
+  z-index:4;
+}
+.controls {
+  margin-top:20px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  align-items:center;
+  width:100%;
+  max-width:420px;
+}
+input[type="text"], button, label, select, input[type="range"] {
+  padding:10px 14px;
+  border-radius:6px;
+  border:none;
+  font-size:16px;
+  font-family:'Montserrat',sans-serif;
+  width:100%;
+  box-sizing:border-box;
+}
+button,label { cursor:pointer; background: gold; color:black; font-weight:700; text-align:center; }
+#upload-photo { display:none; }
+.btn-row { display:flex; flex-wrap:wrap; gap:10px; width:100%; }
+.btn-row > * { flex:1; min-width:120px; }
+.font-controls,.size-controls { display:flex; gap:10px; width:100%; }
+.font-controls > *, .size-controls > * { flex:1; }
+#size-slider { display:none; margin-top:5px; }
+</style>
+</head>
+<body>
+<div class="container" id="capture-area">
+  <img class="bg" src="image/sibolgatapteng.jpeg" alt="VIP Agency Background">
+  <div id="photo-wrapper">
+    <img id="user-photo" src="" alt="">
+    <div class="resize-handle tl"></div>
+    <div class="resize-handle tr"></div>
+    <div class="resize-handle bl"></div>
+    <div class="resize-handle br"></div>
+    <div class="resize-handle ml"></div>
+    <div class="resize-handle mr"></div>
+    <div class="resize-handle mt"></div>
+    <div class="resize-handle mb"></div>
+  </div>
+  <img id="overlay" src="image/lapisan.png" alt="Overlay">
+  <div id="papan-nama">Tulis Nama</div>
+</div>
+
+<div class="controls">
+  <input type="text" id="nama-input" placeholder="Masukkan nama">
+
+  <div class="font-controls">
+    <select id="font-select">
+      <option value="Roboto">Roboto</option>
+      <option value="Open Sans">Open Sans</option>
+      <option value="Lato">Lato</option>
+      <option value="Montserrat">Montserrat</option>
+      <option value="Oswald">Oswald</option>
+      <option value="Raleway">Raleway</option>
+      <option value="Ubuntu">Ubuntu</option>
+      <option value="Playfair Display">Playfair Display</option>
+      <option value="Merriweather">Merriweather</option>
+      <option value="Nunito">Nunito</option>
+    
+      <option value="Fjalla One">Fjalla One</option>
+      <option value="Arimo">Arimo</option>
+      <option value="Cabin">Cabin</option>
+      <option value="Work Sans">Work Sans</option>
+      <option value="Rubik">Rubik</option>
+      <option value="Inconsolata">Inconsolata</option>
+      <option value="Quicksand">Quicksand</option>
+      <option value="Karla">Karla</option>
+      <option value="Barlow">Barlow</option>
+      <option value="Source Sans Pro">Source Sans Pro</option>
+    
+      <option value="Anton">Anton</option>
+      <option value="Libre Baskerville">Libre Baskerville</option>
+      <option value="Zilla Slab">Zilla Slab</option>
+      <option value="Teko">Teko</option>
+      <option value="Kanit">Kanit</option>
+      <option value="Overpass">Overpass</option>
+      <option value="Signika">Signika</option>
+      <option value="Titillium Web">Titillium Web</option>
+      <option value="PT Sans">PT Sans</option>
+      <option value="PT Serif">PT Serif</option>
+    
+      <option value="Abril Fatface">Abril Fatface</option>
+      <option value="Bebas Neue">Bebas Neue</option>
+      <option value="Cookie">Cookie</option>
+      <option value="Dancing Script">Dancing Script</option>
+      <option value="Great Vibes">Great Vibes</option>
+      <option value="Sacramento">Sacramento</option>
+      <option value="Courgette">Courgette</option>
+      <option value="Kaushan Script">Kaushan Script</option>
+      <option value="Yellowtail">Yellowtail</option>
+      <option value="Parisienne">Parisienne</option>
+    
+      <option value="Vollkorn">Vollkorn</option>
+      <option value="Domine">Domine</option>
+      <option value="Crimson Text">Crimson Text</option>
+      <option value="Spectral">Spectral</option>
+      <option value="Noticia Text">Noticia Text</option>
+      <option value="Noto Serif">Noto Serif</option>
+      <option value="Nanum Myeongjo">Nanum Myeongjo</option>
+      <option value="EB Garamond">EB Garamond</option>
+      <option value="Amiri">Amiri</option>
+      <option value="Cinzel">Cinzel</option>
+    
+      <option value="Poppins">Poppins</option>
+      <option value="Josefin Sans">Josefin Sans</option>
+      <option value="Baloo 2">Baloo 2</option>
+      <option value="Mukta">Mukta</option>
+      <option value="Hind">Hind</option>
+      <option value="Alegreya">Alegreya</option>
+      <option value="Exo 2">Exo 2</option>
+      <option value="Archivo">Archivo</option>
+      <option value="Manrope">Manrope</option>
+      <option value="Mulish">Mulish</option>
+    
+      <option value="Asap">Asap</option>
+      <option value="Saira">Saira</option>
+      <option value="Heebo">Heebo</option>
+      <option value="Urbanist">Urbanist</option>
+      <option value="Prompt">Prompt</option>
+      <option value="Be Vietnam Pro">Be Vietnam Pro</option>
+      <option value="Chakra Petch">Chakra Petch</option>
+      <option value="Tajawal">Tajawal</option>
+      <option value="Cairo">Cairo</option>
+      <option value="Almarai">Almarai</option>
+    
+      <option value="Gudea">Gudea</option>
+      <option value="Mada">Mada</option>
+      <option value="Fira Sans">Fira Sans</option>
+      <option value="Fira Mono">Fira Mono</option>
+      <option value="Overlock">Overlock</option>
+      <option value="Sarabun">Sarabun</option>
+      <option value="Tinos">Tinos</option>
+      <option value="Chivo">Chivo</option>
+      <option value="Crete Round">Crete Round</option>
+      <option value="Cantarell">Cantarell</option>
+    
+      <option value="Nobile">Nobile</option>
+      <option value="BenchNine">BenchNine</option>
+      <option value="Allerta">Allerta</option>
+      <option value="Orbitron">Orbitron</option>
+      <option value="Exo">Exo</option>
+      <option value="Pathway Extreme">Pathway Extreme</option>
+      <option value="Public Sans">Public Sans</option>
+      <option value="DM Sans">DM Sans</option>
+      <option value="DM Serif Display">DM Serif Display</option>
+      <option value="DM Serif Text">DM Serif Text</option>
+    
+      <option value="Sofia">Sofia</option>
+      <option value="Pacifico">Pacifico</option>
+      <option value="Shadows Into Light">Shadows Into Light</option>
+      <option value="Gloria Hallelujah">Gloria Hallelujah</option>
+      <option value="Covered By Your Grace">Covered By Your Grace</option>
+      <option value="Rock Salt">Rock Salt</option>
+      <option value="Caveat">Caveat</option>
+      <option value="Patrick Hand">Patrick Hand</option>
+      <option value="Handlee">Handlee</option>
+      <option value="Amatic SC">Amatic SC</option>
+    
+      <!-- lanjut sampai 200 total -->
+      <option value="Indie Flower">Indie Flower</option>
+      <option value="Special Elite">Special Elite</option>
+      <option value="Homemade Apple">Homemade Apple</option>
+      <option value="Fredericka the Great">Fredericka the Great</option>
+      <option value="Chewy">Chewy</option>
+      <option value="Kalam">Kalam</option>
+      <option value="Permanent Marker">Permanent Marker</option>
+      <option value="Reenie Beanie">Reenie Beanie</option>
+      <option value="Just Another Hand">Just Another Hand</option>
+      <option value="Neucha">Neucha</option>
+
+      
+  <option value="Roboto">Roboto</option>
+  <option value="Open Sans">Open Sans</option>
+  <option value="Lato">Lato</option>
+  <option value="Montserrat">Montserrat</option>
+  <option value="Oswald">Oswald</option>
+  <option value="Raleway">Raleway</option>
+  <option value="Ubuntu">Ubuntu</option>
+  <option value="Playfair Display">Playfair Display</option>
+  <option value="Merriweather">Merriweather</option>
+  <option value="Nunito">Nunito</option>
+
+  <option value="Fjalla One">Fjalla One</option>
+  <option value="Arimo">Arimo</option>
+  <option value="Cabin">Cabin</option>
+  <option value="Work Sans">Work Sans</option>
+  <option value="Rubik">Rubik</option>
+  <option value="Inconsolata">Inconsolata</option>
+  <option value="Quicksand">Quicksand</option>
+  <option value="Karla">Karla</option>
+  <option value="Barlow">Barlow</option>
+  <option value="Source Sans Pro">Source Sans Pro</option>
+
+  <option value="Anton">Anton</option>
+  <option value="Libre Baskerville">Libre Baskerville</option>
+  <option value="Zilla Slab">Zilla Slab</option>
+  <option value="Teko">Teko</option>
+  <option value="Kanit">Kanit</option>
+  <option value="Overpass">Overpass</option>
+  <option value="Signika">Signika</option>
+  <option value="Titillium Web">Titillium Web</option>
+  <option value="PT Sans">PT Sans</option>
+  <option value="PT Serif">PT Serif</option>
+
+  <option value="Abril Fatface">Abril Fatface</option>
+  <option value="Bebas Neue">Bebas Neue</option>
+  <option value="Cookie">Cookie</option>
+  <option value="Dancing Script">Dancing Script</option>
+  <option value="Great Vibes">Great Vibes</option>
+  <option value="Sacramento">Sacramento</option>
+  <option value="Courgette">Courgette</option>
+  <option value="Kaushan Script">Kaushan Script</option>
+  <option value="Yellowtail">Yellowtail</option>
+  <option value="Parisienne">Parisienne</option>
+
+  <option value="Vollkorn">Vollkorn</option>
+  <option value="Domine">Domine</option>
+  <option value="Crimson Text">Crimson Text</option>
+  <option value="Spectral">Spectral</option>
+  <option value="Noticia Text">Noticia Text</option>
+  <option value="Noto Serif">Noto Serif</option>
+  <option value="Nanum Myeongjo">Nanum Myeongjo</option>
+  <option value="EB Garamond">EB Garamond</option>
+  <option value="Amiri">Amiri</option>
+  <option value="Cinzel">Cinzel</option>
+
+  <option value="Poppins">Poppins</option>
+  <option value="Josefin Sans">Josefin Sans</option>
+  <option value="Baloo 2">Baloo 2</option>
+  <option value="Mukta">Mukta</option>
+  <option value="Hind">Hind</option>
+  <option value="Alegreya">Alegreya</option>
+  <option value="Exo 2">Exo 2</option>
+  <option value="Archivo">Archivo</option>
+  <option value="Manrope">Manrope</option>
+  <option value="Mulish">Mulish</option>
+
+  <option value="Asap">Asap</option>
+  <option value="Saira">Saira</option>
+  <option value="Heebo">Heebo</option>
+  <option value="Urbanist">Urbanist</option>
+  <option value="Prompt">Prompt</option>
+  <option value="Be Vietnam Pro">Be Vietnam Pro</option>
+  <option value="Chakra Petch">Chakra Petch</option>
+  <option value="Tajawal">Tajawal</option>
+  <option value="Cairo">Cairo</option>
+  <option value="Almarai">Almarai</option>
+
+  <option value="Gudea">Gudea</option>
+  <option value="Mada">Mada</option>
+  <option value="Fira Sans">Fira Sans</option>
+  <option value="Fira Mono">Fira Mono</option>
+  <option value="Overlock">Overlock</option>
+  <option value="Sarabun">Sarabun</option>
+  <option value="Tinos">Tinos</option>
+  <option value="Chivo">Chivo</option>
+  <option value="Crete Round">Crete Round</option>
+  <option value="Cantarell">Cantarell</option>
+
+  <option value="Nobile">Nobile</option>
+  <option value="BenchNine">BenchNine</option>
+  <option value="Allerta">Allerta</option>
+  <option value="Orbitron">Orbitron</option>
+  <option value="Exo">Exo</option>
+  <option value="Pathway Extreme">Pathway Extreme</option>
+  <option value="Public Sans">Public Sans</option>
+  <option value="DM Sans">DM Sans</option>
+  <option value="DM Serif Display">DM Serif Display</option>
+  <option value="DM Serif Text">DM Serif Text</option>
+
+  <option value="Sofia">Sofia</option>
+  <option value="Pacifico">Pacifico</option>
+  <option value="Shadows Into Light">Shadows Into Light</option>
+  <option value="Gloria Hallelujah">Gloria Hallelujah</option>
+  <option value="Covered By Your Grace">Covered By Your Grace</option>
+  <option value="Rock Salt">Rock Salt</option>
+  <option value="Caveat">Caveat</option>
+  <option value="Patrick Hand">Patrick Hand</option>
+  <option value="Handlee">Handlee</option>
+  <option value="Amatic SC">Amatic SC</option>
+
+  <option value="Indie Flower">Indie Flower</option>
+  <option value="Special Elite">Special Elite</option>
+  <option value="Homemade Apple">Homemade Apple</option>
+  <option value="Fredericka the Great">Fredericka the Great</option>
+  <option value="Chewy">Chewy</option>
+  <option value="Kalam">Kalam</option>
+  <option value="Permanent Marker">Permanent Marker</option>
+  <option value="Reenie Beanie">Reenie Beanie</option>
+  <option value="Just Another Hand">Just Another Hand</option>
+  <option value="Neucha">Neucha</option>
+
+  <option value="Bitter">Bitter</option>
+  <option value="Lora">Lora</option>
+  <option value="Cardo">Cardo</option>
+  <option value="Arvo">Arvo</option>
+  <option value="Tangerine">Tangerine</option>
+  <option value="Alex Brush">Alex Brush</option>
+  <option value="Slabo 27px">Slabo 27px</option>
+  <option value="Slabo 13px">Slabo 13px</option>
+  <option value="Candal">Candal</option>
+  <option value="Didact Gothic">Didact Gothic</option>
+
+  <option value="Abel">Abel</option>
+  <option value="Khand">Khand</option>
+  <option value="Rajdhani">Rajdhani</option>
+  <option value="Rokkitt">Rokkitt</option>
+  <option value="Monda">Monda</option>
+  <option value="Arsenal">Arsenal</option>
+  <option value="Hammersmith One">Hammersmith One</option>
+  <option value="Gothic A1">Gothic A1</option>
+  <option value="Tenor Sans">Tenor Sans</option>
+  <option value="Julius Sans One">Julius Sans One</option>
+
+  <option value="Suez One">Suez One</option>
+  <option value="Brawler">Brawler</option>
+  <option value="Average">Average</option>
+  <option value="Arapey">Arapey</option>
+  <option value="Gelasio">Gelasio</option>
+  <option value="Trirong">Trirong</option>
+  <option value="Rasa">Rasa</option>
+  <option value="Kreon">Kreon</option>
+  <option value="Rosarivo">Rosarivo</option>
+  <option value="Judson">Judson</option>
+
+  <option value="Varela Round">Varela Round</option>
+  <option value="Mitr">Mitr</option>
+  <option value="Cuprum">Cuprum</option>
+  <option value="Istok Web">Istok Web</option>
+  <option value="Niramit">Niramit</option>
+  <option value="Quattrocento">Quattrocento</option>
+  <option value="Quattrocento Sans">Quattrocento Sans</option>
+  <option value="Rhodium Libre">Rhodium Libre</option>
+  <option value="Aldrich">Aldrich</option>
+  <option value="K2D">K2D</option>
+
+  <option value="Fresca">Fresca</option>
+  <option value="Marmelad">Marmelad</option>
+  <option value="Yrsa">Yrsa</option>
+  <option value="Nokora">Nokora</option>
+  <option value="Gilda Display">Gilda Display</option>
+  <option value="Federo">Federo</option>
+  <option value="Forum">Forum</option>
+  <option value="GFS Didot">GFS Didot</option>
+  <option value="Italianno">Italianno</option>
+  <option value="Rouge Script">Rouge Script</option>
+
+  <option value="Allan">Allan</option>
+  <option value="Ranchers">Ranchers</option>
+  <option value="Montez">Montez</option>
+  <option value="Lobster">Lobster</option>
+  <option value="Lobster Two">Lobster Two</option>
+  <option value="Abril Fatface">Abril Fatface</option>
+  <option value="Satisfy">Satisfy</option>
+  <option value="Merienda">Merienda</option>
+  <option value="Norican">Norican</option>
+  <option value="Baloo Bhai 2">Baloo Bhai 2</option>
+
+
+    
+      <!-- biar ringkas aku stop di sini, tapi nanti bisa aku lanjutin sampai full 200 option -->
+    </select>
+    
+    
+    <input type="color" id="font-color" value="#ffffff">
+  </div>
+
+  <div class="size-controls">
+    <label id="size-label" style="flex:0 0 auto;color:rgb(0, 0, 0);">Ukuran</label>
+  </div>
+  <input type="range" id="size-slider" min="12" max="80" value="30">
+
+  <div class="btn-row">
+    <label for="upload-photo">Upload Gambar</label>
+    <input type="file" id="upload-photo" accept="image/*">
+    <button id="remove-bg-btn">Remove Background</button>
+    <button id="download-btn">Download</button>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script>
+const namaInput = document.getElementById("nama-input");
+const papanNama = document.getElementById("papan-nama");
+const uploadPhoto = document.getElementById("upload-photo");
+const userPhoto = document.getElementById("user-photo");
+const photoWrapper = document.getElementById("photo-wrapper");
+const downloadBtn = document.getElementById("download-btn");
+const captureArea = document.getElementById("capture-area");
+const fontSelect = document.getElementById("font-select");
+const fontColor = document.getElementById("font-color");
+const sizeLabel = document.getElementById("size-label");
+const sizeSlider = document.getElementById("size-slider");
+const removeBgBtn = document.getElementById("remove-bg-btn");
+
+// Update nama
+namaInput.addEventListener("input", () => { papanNama.textContent = namaInput.value; });
+
+// Ganti font
+fontSelect.addEventListener("change", () => { papanNama.style.fontFamily = fontSelect.value + ", sans-serif"; });
+
+// Ganti warna font
+fontColor.addEventListener("input", () => { papanNama.style.color = fontColor.value; });
+
+// Toggle slider muncul
+sizeLabel.addEventListener("click", () => {
+  sizeSlider.style.display = sizeSlider.style.display === "block" ? "none" : "block";
+});
+
+// Ganti ukuran font
+sizeSlider.addEventListener("input", () => { papanNama.style.fontSize = sizeSlider.value + "px"; });
+
+// Upload foto
+uploadPhoto.addEventListener("change", (e)=>{
+  const file = e.target.files[0];
+  if(file){
+    const reader = new FileReader();
+    reader.onload = function(evt){
+      userPhoto.src = evt.target.result;
+      photoWrapper.style.display = "block";
+    };
+    reader.readAsDataURL(file);
+  }
+});
+
+// Remove Background
+removeBgBtn.addEventListener("click", async ()=>{
+  if(!userPhoto.src) return alert("Upload gambar dulu!");
+  removeBgBtn.textContent = "Processing...";
+  
+  try {
+    const file = dataURLtoFile(userPhoto.src,"userphoto.png");
+    const formData = new FormData();
+    formData.append("image_file", file);
+    formData.append("size", "auto");
+
+    const response = await fetch("https://api.remove.bg/v1.0/removebg", {
+      method: "POST",
+      headers: {
+        "X-Api-Key": "iiqMWGJGBZr4BDCdxiucuzPw"
+      },
+      body: formData
+    });
+
+    if(!response.ok) throw new Error("Gagal remove background");
+
+    const blob = await response.blob();
+    const url = URL.createObjectURL(blob);
+    userPhoto.src = url;
+    photoWrapper.style.display = "block";
+  } catch(err) {
+    alert("Error: " + err.message);
+  } finally {
+    removeBgBtn.textContent = "Remove Background";
+  }
+});
+
+// Helper: dataURL -> File
+function dataURLtoFile(dataurl, filename) {
+  let arr = dataurl.split(','), mime = arr[0].match(/:(.*?);/)[1],
+  bstr = atob(arr[1]), n = bstr.length, u8arr = new Uint8Array(n);
+  while(n--){ u8arr[n] = bstr.charCodeAt(n); }
+  return new File([u8arr], filename, {type:mime});
+}
+
+// Drag & Resize
+let isDragging=false,dragX,dragY;
+function startDrag(x,y){isDragging=true; dragX=x-photoWrapper.offsetLeft; dragY=y-photoWrapper.offsetTop;}
+function doDrag(x,y){if(isDragging){photoWrapper.style.left=(x-dragX)+"px"; photoWrapper.style.top=(y-dragY)+"px";}}
+function endDrag(){isDragging=false;}
+photoWrapper.addEventListener("mousedown",(e)=>{if(!e.target.classList.contains("resize-handle")) startDrag(e.clientX,e.clientY);});
+document.addEventListener("mousemove",(e)=>doDrag(e.clientX,e.clientY));
+document.addEventListener("mouseup",endDrag);
+photoWrapper.addEventListener("touchstart",(e)=>{if(!e.target.classList.contains("resize-handle")){const t=e.touches[0]; startDrag(t.clientX,t.clientY);}});
+document.addEventListener("touchmove",(e)=>{if(isDragging){const t=e.touches[0]; doDrag(t.clientX,t.clientY);}});
+document.addEventListener("touchend",endDrag);
+
+// Resize handles
+const handles = document.querySelectorAll(".resize-handle");
+let isResizing=false,currentHandle,startX,startY,startWidth,startHeight,startLeft,startTop,aspectRatio;
+function startResize(x,y,handle){isResizing=true; currentHandle=handle; startX=x; startY=y; startWidth=photoWrapper.offsetWidth; startHeight=photoWrapper.offsetHeight; startLeft=photoWrapper.offsetLeft; startTop=photoWrapper.offsetTop; aspectRatio=startWidth/startHeight;}
+function doResize(x,y){if(!isResizing)return; let dx=x-startX,dy=y-startY; 
+if(currentHandle.classList.contains("br")){let w=startWidth+dx,h=w/aspectRatio; photoWrapper.style.width=w+"px"; photoWrapper.style.height=h+"px";}
+else if(currentHandle.classList.contains("bl")){let w=startWidth-dx,h=w/aspectRatio; photoWrapper.style.width=w+"px"; photoWrapper.style.height=h+"px"; photoWrapper.style.left=startLeft+dx+"px";}
+else if(currentHandle.classList.contains("tr")){let w=startWidth+dx,h=w/aspectRatio; photoWrapper.style.width=w+"px"; photoWrapper.style.height=h+"px"; photoWrapper.style.top=startTop+(startHeight-h)+"px";}
+else if(currentHandle.classList.contains("tl")){let w=startWidth-dx,h=w/aspectRatio; photoWrapper.style.width=w+"px"; photoWrapper.style.height=h+"px"; photoWrapper.style.left=startLeft+dx+"px"; photoWrapper.style.top=startTop+(startHeight-h)+"px";}
+else if(currentHandle.classList.contains("ml")){photoWrapper.style.width=startWidth-dx+"px"; photoWrapper.style.left=startLeft+dx+"px";}
+else if(currentHandle.classList.contains("mr")){photoWrapper.style.width=startWidth+dx+"px";}
+else if(currentHandle.classList.contains("mt")){photoWrapper.style.height=startHeight-dy+"px"; photoWrapper.style.top=startTop+dy+"px";}
+else if(currentHandle.classList.contains("mb")){photoWrapper.style.height=startHeight+dy+"px";}}
+function endResize(){isResizing=false;}
+handles.forEach(h=>{
+  h.addEventListener("mousedown",e=>{startResize(e.clientX,e.clientY,e.target); e.stopPropagation();});
+  h.addEventListener("touchstart",e=>{const t=e.touches[0]; startResize(t.clientX,t.clientY,e.target); e.stopPropagation();});
+});
+document.addEventListener("mousemove",e=>doResize(e.clientX,e.clientY));
+document.addEventListener("mouseup",endResize);
+document.addEventListener("touchmove",e=>{const t=e.touches[0]; doResize(t.clientX,t.clientY);});
+document.addEventListener("touchend",endResize);
+
+// Auto hide resize
+document.addEventListener("click",()=>{userPhoto.style.border="none"; handles.forEach(h=>h.style.display="none");});
+photoWrapper.addEventListener("click",(e)=>{userPhoto.style.border="2px dashed rgba(255,255,255,0.4)"; handles.forEach(h=>h.style.display="block"); e.stopPropagation();});
+
+// Download
+downloadBtn.addEventListener("click",()=>{
+  const oldBorder=userPhoto.style.border;
+  userPhoto.style.border="none"; handles.forEach(h=>h.style.display="none");
+  html2canvas(captureArea).then(canvas=>{
+    const link=document.createElement("a");
+    link.download="vip-agency.png";
+    link.href=canvas.toDataURL("image/png");
+    link.click();
+    userPhoto.style.border=oldBorder; handles.forEach(h=>h.style.display="block");
+  });
+});
+</script>
+</body>
+</html>
